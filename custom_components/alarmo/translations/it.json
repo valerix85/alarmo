@@ -1,24 +1,24 @@
 {
   "services": {
     "arm": {
-      "name": "Arm",
-      "description": "Arm an Alarmo entity with custom settings.",
+      "name": "Arma",
+      "description": "Armare un'entità Alarmo con impostazioni personalizzate.",
       "fields": {
         "entity_id": {
-          "name": "Entity ID",
-          "description": "Alarm entity that should be armed."
+          "name": "ID entità",
+          "description": "Entità di allarme da armare."
         },
         "code": {
-          "name": "Code",
-          "description": "Code to use for the arming."
+          "name": "Codice",
+          "description": "Codice da utilizzare per l'armamento."
         },
         "mode": {
-          "name": "Mode",
-          "description": "Mode to arm the alarm in."
+          "name": "Modalità",
+          "description": "Modalità per armare l'allarme in."
         },
         "skip_delay": {
-          "name": "Skip Delay",
-          "description": "Skip the exit delay."
+          "name": "Salta Ritardo",
+          "description": "Saltare il ritardo di uscita."
         },
         "force": {
           "name": "Force",
